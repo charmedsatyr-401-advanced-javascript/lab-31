@@ -1,0 +1,12 @@
+body {
+  background: #eee;
+}
+
+div:not(#root) {
+  background: #fff;
+  padding: 1em;
+
+  &:hover {
+    background: #ccc;
+  }
+}
